@@ -1,0 +1,205 @@
+#page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+}
+
+#navBar {
+  border: transparent yellow 1px;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: top;
+}
+
+#navBarTop {
+  border: transparent red 1px;
+  width: 100%;
+  height: 55%;
+  display: flex;
+  justify-content: center;
+}
+
+#navBarBot {
+  width: 100%;
+  height: 43%;
+  border: transparent green 1px;
+  display: flex;
+}
+
+#topLeft {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+}
+
+#logo {
+  height: 60px;
+  width: 200px;
+  border: tomato 1px transparent;
+  margin-top: 3px;
+}
+
+#logo > img {
+  height: 100%;
+  width: 100%;
+}
+
+#search {
+  height: 80%;
+  width: 40%;
+  margin-top: 5px;
+  margin-left: -25%;
+}
+#search > input {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: gray;
+  font-size: 14px;
+}
+
+#topRight {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  border: green 1px transparent;
+}
+
+#topRight > div:nth-child(odd) {
+  border: tomato 1px transparent;
+  width: 15%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+#topRight > div:nth-child(even) {
+  border: gray 1px solid;
+  height: 80%;
+  margin-top: 10px;
+}
+
+#categories {
+  border: tomato 1px transparent;
+  width: 70%;
+  margin-left: 14%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#categories > div > p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: transparent red 1px;
+  height: fit-content;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#content > div {
+  width: 60%;
+  border: blue transparent 1px;
+}
+
+#box1 {
+  height: 335px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(249, 249, 249);
+}
+#box2 {
+  height: 150px;
+  margin: auto;
+}
+#box3 {
+  border: blue transparent 1px;
+  height: 500px;
+  margin: auto;
+  background-color: rgb(253, 217, 197);
+  display: flex;
+  flex-direction: row;
+}
+#box4 {
+  border: blue transparent 1px;
+  height: 500px;
+  margin: auto;
+  margin-top: 40px;
+  background-color: rgb(247, 240, 243);
+  display: flex;
+  flex-direction: row;
+}
+#box5 {
+  border: blue transparent 1px;
+  height: 500px;
+  margin: auto;
+  margin-top: 40px;
+  background-image: url("https://meesho.com/_next/static/images/download_banner-19ca4d63d9c1dc44bc8cbfae62b60bd7.jpg");
+}
+#box6 {
+  border: blue transparent 1px;
+  height: 300px;
+  margin: auto;
+  margin-top: 40px;
+  background-image: url("https://meesho.com/_next/static/images/supply_banner_desk-d53b6ffa3ee3c43feedcfdd0f3d9bd8d.jpg");
+}
+
+#about {
+  height: fit-content;
+  width: 70%;
+  background-color: rgb(249, 249, 249);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: justify;
+  margin: auto;
+  padding: 10px;
+}
+
+#box1Left {
+  height: fit-content;
+  width: 60%;
+  display: flex;
+  justify-content: left;
+  margin-left: 5%;
+  margin-top: 50px;
+  flex-direction: column;
+  border: salmon 1px transparent;
+}
+
+#signin {
+  width: 400px;
+  height: 700px;
+  display: flex;
+  border: tomato solid 1px;
+  margin: auto;
+  border-radius: 10px;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+  margin-top: 50px;
+}
